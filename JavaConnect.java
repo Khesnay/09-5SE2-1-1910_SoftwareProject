@@ -46,8 +46,8 @@ public class JavaConnect {
              while ((strLine = br.readLine()) != null) {
                 //System.out.println("list"+list);
                 list.add(strLine);
-
              }
+           // Just displaying the file properly
              int count;
        for (count = 0; count < list.size(); count++) {
            int jump = count % 14;
